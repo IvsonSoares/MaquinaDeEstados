@@ -101,7 +101,7 @@ def s_4(string, contador, maquinas_de_estado):
 
 def chars_in_set(string):
   for i in string:
-    if i not in ['a', 'b', 'c']:
+    if i not in ['a', 'b']:
       return False
   return True
 
